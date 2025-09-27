@@ -65,3 +65,81 @@ footer {
   text-align: center;
   padding: 10px;
 }
+/* ---------- Logo Styling ---------- */
+header .logo {
+  font-size: 28px;      /* make the logo bigger */
+  color: #FFD700;       /* gold color */
+  margin-right: 20px;   /* space between logo and links */
+}
+
+/* ---------- Navigation ---------- */
+header {
+  background: #222;
+  padding: 10px 20px;
+}
+
+header ul {
+  list-style: none;
+  display: flex;
+  align-items: center;
+  gap: 20px;
+  margin: 0;
+  padding: 0;
+}
+
+header a {
+  color: #f4f4f4;
+  text-decoration: none;
+  font-weight: bold;
+}
+
+header a:hover {
+  color: #FFD700; /* hover highlight matches logo color */
+}
+
+/* ---------- Article Styling ---------- */
+article {
+  flex: 2;
+  padding: 20px;
+  overflow: auto;
+  background: #fff;
+  border-right: 1px solid #ddd;
+}
+
+article h1 {
+  color: #222;
+  margin-bottom: 15px;
+}
+
+article table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+article th, article td {
+  padding: 10px;
+  border: 1px solid #ccc;
+}
+
+article th {
+  background: #f0f0f0;
+}
+
+/* ---------- Aside Styling ---------- */
+aside {
+  flex: 1;
+  padding: 20px;
+  background: #fafafa;
+  overflow: auto;
+  border-left: 1px solid #ddd;
+}
+
+/* ---------- Footer ---------- */
+footer {
+  background: #222;
+  color: #f4f4f4;
+  text-align: center;
+  padding: 15px;
+  font-size: 14px;
+}
